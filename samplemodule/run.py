@@ -7,7 +7,8 @@ class Run:
 		pass
 
 	def run(parameter1=2, parameter2='apple',parameter3=False):
-		"""# Module Name
+		"""
+# Module Name
 This class `__doc__` string should be written in Markdown to render formatting in the GUI.
 
 This Run class should have	 
