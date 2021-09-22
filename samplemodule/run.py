@@ -1,5 +1,5 @@
 import logging
-logger = logging.basicConfig(filename='app.log', filemode='w',format='%(name)s - %(levelname)s - %(message)s    ')
+og = logging.getLogger(__name__)
 import pandas as pd
 
 class Run:
