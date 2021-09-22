@@ -22,9 +22,9 @@ Parameter3		False
 4. Any additonal business or other contextual knowledge needed to run this tool
 
 Args:
-	param1 (int): The first parameter {1,2,3,4,5}.
-	param2 (str): The second parameter.
-	param3 (file): either base64 encoding of file or path to file
+	parameter1 (int): The first parameter {1,2,3,4,5}.
+	parameter2 (str): The second parameter.
+	parameter3 (file): either base64 encoding of file or path to file
 
 Returns:
 	bool: The return value. True for success, False otherwise.
