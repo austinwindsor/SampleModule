@@ -8,7 +8,7 @@ class Run(AbstractRun):
 	def __init__(self):
 		pass
 
-	def run(parameter1=2, parameter2='apple',parameter3=False):
+	def run(self, parameter1=2, parameter2='apple',parameter3=False, *args):
 		"""
 # Module Name
 This class `__doc__` string should be written in Markdown to render formatting in the GUI.
