@@ -1,4 +1,5 @@
 import logging
+import pandas as pd
 
 class Run:
 
@@ -29,4 +30,4 @@ Returns:
 	bool: The return value. True for success, False otherwise.
 		"""
 		logging.info("Let's put a message here to see if it appears")
-		return 
+		return pd.DataFrame({'b':[0,0,0]})
