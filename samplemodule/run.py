@@ -1,4 +1,5 @@
 import logging
+logger = logging.basicConfig(filename='app.log', filemode='w',format='%(name)s - %(levelname)s - %(message)s    ')
 import pandas as pd
 
 class Run:
@@ -11,7 +12,8 @@ class Run:
 # Module Name
 This class `__doc__` string should be written in Markdown to render formatting in the GUI.
 
-This Run class should have	 
+This Run class should have	
+
 1. a `run()` method with parameters and a fully fleshed `__doc__` string using ***Google Documentation format***  
 2. Links to any documentation included in this class `__doc__` string  
 3. an example of parameters to run
@@ -30,5 +32,5 @@ Args:
 Returns:
 	bool: The return value. True for success, False otherwise.
 		"""
-		logging.info("Let's put a message here to see if it appears")
+		logging.warning("Let's put a message here to see if it appears")
 		return pd.DataFrame({'b':[0,0,0]})
