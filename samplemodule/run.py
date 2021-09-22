@@ -1,4 +1,4 @@
-
+import logging
 
 class Run:
 
@@ -21,10 +21,12 @@ Parameter3		False
 4. Any additonal business or other contextual knowledge needed to run this tool
 
 Args:
-	param1 (int): The first parameter.
+	param1 (int): The first parameter {1,2,3,4,5}.
 	param2 (str): The second parameter.
+	param3 (file): either base64 encoding of file or path to file
 
 Returns:
 	bool: The return value. True for success, False otherwise.
 		"""
+		logging.info("Let's put a message here to see if it appears")
 		return 
