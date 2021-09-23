@@ -1,5 +1,5 @@
 import logging
-# og = logging.getLogger(__name__)
+og = logging.getLogger(__name__)
 import pandas as pd
 from abstract_classes.run import AbstractRun
 
